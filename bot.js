@@ -1,7 +1,7 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "5"
-var adminprefix = '5'
+var prefix = "b"
+var adminprefix = 'b'
 
 
 //bc
@@ -23,7 +23,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "5";
+  var prefix = "b";
 
   client.on("message", message => {
   
@@ -66,7 +66,7 @@ m.sendMessage(args)
 });
 
   client.on('message', msg => {
-    if(msg.content === '$help')
+    if(msg.content === 'bhelp')
     msg.reply('Check Your DM :white_check_mark:')
   });
   
@@ -78,11 +78,11 @@ m.sendMessage(args)
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**Help|هيلب
 
-       $obc | لأرسال برود كاست للكل
+       bobc | لأرسال برود كاست للكل
 
-       $bc  |  لأرسال برود كاست للأونلاين
+       bbc  |  لأرسال برود كاست للأونلاين
 
-       $adminbc | برودكاست عادي
+       badminbc | برودكاست عادي
 
        ** `)
    message.author.sendEmbed(embed)
